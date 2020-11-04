@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
+
+    <div class="container">
+        <div class="item-1"></div>
+        <div class="item-2"></div>
+        <div class="item-3"></div>
+        <div class="item-4"></div>
+    </div>
+
+<button id="b1" onclick="dark()">Switch to Dark Mode</button>
+
+<form action="#">
+
+    <fieldset>
+        <legend>Guess</legend>
+
+<label for="password">Secret Code</label>
+<input type="password" id="myInput" required>
+<input type="checkbox" onclick="password()">Show Code
+
+</fieldset>
+
+</form>
+
+<button id="b2" onclick="onSubmit()">Submit</button>
     
 </body>
 </html>
