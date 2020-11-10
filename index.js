@@ -13,5 +13,5 @@ function password() {
 }
 
 function onSubmit() {
-if (document.getElementById('myInput').value == 'Hollywoo') {window.location.href='index(2).html'; }else{ alert('Try again. Hint: What the Hollywood sign says now'); }
+if (document.getElementById('myInput').value == 'DAYDREAM') {window.location.href='index(2).html'; }else{ alert('Try again. Hint: A type of dream done during the day. Type in all caps with no spaces :)'); }
 }
