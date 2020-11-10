@@ -17,6 +17,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    font-family: font;
 }
 
 #img1{
@@ -138,7 +139,7 @@ body{
 
 @font-face{
     font-family: font;
-    src: url(fonts/FrontPageNeue.otf);
+    src: url(./Fonts/FrontPageNeue.otf);
 }
 
 .container{
